@@ -1,0 +1,79 @@
+body{
+    background-color:rgb(53, 75, 61)
+}
+
+header {
+width: 100%;
+height: 20%;
+background-color: rgb(132, 175, 115);
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+}
+    header img{
+        width: 150px;
+        height: 150px;
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/*======================= CSS MAIN =======================*/
+main{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(184, 240, 168);
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.posicionamento{
+gap: 25px;
+margin: 20px;
+padding: 25px;
+display: flex;
+flex-direction: column;
+}
+
+.pequenoCampo{
+    width: 250px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campoLinha{
+    margin-left: 20px;
+}
+
+/*======================================================*/
+
+/*======================= CSS ASIDE =======================*/
+aside{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("mídia/fundoexercício1.jpg");
+}
+
+/*======================================================*/
+
+/*======================= CSS FOOTER =======================*/
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(211, 211, 211);
+}
+
+/*======================================================*/

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style1.css" >
+        <title>Formulário - Exercício 1</title>
+</head>
+<body>
+    <header>
+        <img src="mídia/logo.png" alt="logo superior">
+    </header>
+    
+    <Section>
+        <main>
+            <forms div class="posicionamento">
+                
+                <div class="pequenoCampo">
+                    <label for="nome"> Informe seu nome completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+                </div>
+
+                <div class="campoLinha">
+                    <label for="marcacao-termos">Li e concordo com os termos de uso</label>
+                        <input type="checkbox" id="marcacao-termos" name="marcacao-termos" placeholder="Li e concordo com os termos.">
+                </div>
+
+
+                <div class="pequenoCampo">
+                    <label for="sexo"> Informe seu sexo</label>
+                        <input type="radio" id="Feminino" name="sexo" value="Feminino" placeholder="Feminino">
+                            <label for="Feminino">Feminino</label>
+                        <input type="radio" id="Masculino" name="sexo" value="Masculino" placeholder="Masculino">
+                            <label for="Masculino">Masculino</label>
+                </div>
+
+                <br>
+
+                <div class="pequenoCampo">
+                    <label for="email">Informe seu email</label>
+                        <input type="email" id="email" name="email" placeholder="..........@gmail.com">
+                </div>
+                
+
+                <div class="pequenoCampo">
+                    <label for="nascimento"> Informe sua data de nascimento</label>
+                        <input type="date" id="nascimento" name="nascimento" placeholder="dd/mm/aaaa">
+                </div>
+                
+
+                <div class="pequenoCampo">
+                    <label for="RG"> Informe seu RG</label>
+                        <input type="text" id="RG" name="RG" placeholder="12.345.678-9">
+                </div>
+
+                
+                <div class="pequenoCampo">
+                    <label for="feedback"> Qual seu nível de satisfação? </label>
+                        <input type="range" id="feedback" name="pesquisaSatisfação">
+                </div>
+
+
+                <div class="pequenoCampo">
+                    <label for="serviços"> Escolha o serviço desejado.</label>
+                        <select name="serviços" id="atendimentos">
+                            <option value="opção1">Matrícula</option>
+                            <option value="opção2">Reagendamento</option>
+                            <option value="opção3">Cancelamento de matrícula</option>
+                        </select>   
+                        
+                </div>
+
+
+                <div class="pequenoCampo">
+                    <label for="envio"> Enviar formulário</label>
+                        <input type="submit" id="envio" name="envio">
+                </div>
+    
+            </forms>
+
+        </main>
+
+        <aside></aside>
+            
+
+    </Section>
+</body>
+</html>
