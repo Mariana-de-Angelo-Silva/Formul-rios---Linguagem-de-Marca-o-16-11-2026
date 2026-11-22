@@ -1,0 +1,174 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing:border-box;}
+
+
+/*================== CSS DO BODY===================*/
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color:#f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*==================================================*/
+
+/*================== CSS DO CONTEINER===================*/
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(15, 10, 10, 0.45);;
+    background-color:#c80c0c;
+    width: 550px;
+    height: 800px;
+    margin: 30px;
+}
+
+/*==================================================*/
+
+/*================== CSS DO MAIN===================*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 6px 66px rgba(230, 223, 223, 0.45);
+    background-color:#f2f2f2;
+    width: 520px;
+    height: 795px;
+    margin: 30px;
+
+    main img {
+    width: 140px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+}
+/*==================================================*/
+
+
+/*================== CSS DO LOGOTOPO===================*/
+.logoTopo{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(238, 188, 188);
+    border-radius: 10px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.faixaBranca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    gap: 5px;
+}
+
+     .faixaBranca img{
+        height: 30px;
+        width: 100px;
+     }
+
+     #senai{
+        height: 30px;
+        width: 150px; 
+     }
+
+/*==================================================*/
+
+/*================== CSS DO FORM===================*/
+.posicionamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-top: 20px;
+    gap:5px;
+}
+
+
+.campoBloco{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    margin: 10px;
+    padding-bottom: 10px;
+
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      font-style: normal;
+      color:rgb(7, 7, 7);
+      margin-top: 20px;
+}
+
+
+
+/* ==== PEDIR EXPLICAÇÃO ~ APONTADO PELA IA : */
+.campoBloco input[type="text"],
+.campoBloco input[type="password"] {
+    width: 400px;
+    height:30px;
+    padding: 8px 12px;
+    border: 1.5px solid #888888;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(7, 7, 7);
+}
+
+
+#envio{
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  color: #f2f2f2;
+  background-color: #4a4a4a;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+
+  #envio:hover{
+    background-color: rgb(167, 31, 31);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+/*==================================================*/
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(150, 24, 24);
+}
+
+button:placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(150, 24, 24);
+}
+
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 65px;
+    font-weight: bold;
+    color: black;
+}
+
+/*Dúvida: Como deixar o texto de um botão com definição sem que o label somente pegue as definicões?

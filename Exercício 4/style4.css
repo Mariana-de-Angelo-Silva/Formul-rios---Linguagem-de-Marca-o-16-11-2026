@@ -1,0 +1,150 @@
+*{margin: 0; 
+  padding: 0;
+  box-sizing: border-box;}
+
+
+/*================== CSS DO BODY ==================*/
+/*pedir ajuda para corrigir a duplicação no canto da tela*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(mídia/fundoClinica.jpg);
+    gap: 20px;
+
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+    color: rgb(26, 114, 228);
+    text-align: center;
+    width: 100%;
+    margin: 10px 5px 5px 5px;
+
+}
+
+h2{
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(26, 114, 228);
+    margin: 10px 0 0px 10px;
+}
+
+p{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 25px;
+  font-style: normal;
+  color: rgb(19, 19, 19);
+}
+
+
+
+/*================================================*/
+
+
+/*================== CSS DO MAIN ==================*/
+main{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: auto;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 10px;
+
+
+}
+
+/*================================================*/
+
+/*================== CSS DO FORM===================*/
+.posicionamento{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5px;
+    gap:5px;
+}
+
+
+.campoBloco{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 8px 10px;
+    padding: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #222222;
+    gap: 6px;
+}
+
+.campoLinha{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #222222;
+    gap: 6px;
+}
+
+/* ==== PEDIR EXPLICAÇÃO ~ APONTADO PELA IA : */
+.campoBloco input[type="text"],
+.campoBloco input[type="email"],
+.campoBloco input[type="tel"],
+.campoBloco input[type="number"],
+.campoBloco input[type="date"],
+.campoBloco input[type="time"],
+.campoBloco select {
+    width: 500px;
+    height: 36px;
+    padding: 6px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #222222;
+}
+
+
+
+#envio{
+  width: 500px;
+  height: 40px;
+  font-size: 20px;
+  color: #f2f2f2;
+  background-color: #373fc7;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+  #envio:hover{
+    background-color: rgb(34, 7, 169);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  }
+/*==================================================*/
+
+/*Dúvidas para a próxima aula: 
+1. Como tirar a duplicação da img de fundo sendo que a img parece normal?
+2. Como alinhar a legenda do renger?
+3. Como alinhar o bloco ao redor do arquivo?
+4.Mais dúvidas - esquecidas

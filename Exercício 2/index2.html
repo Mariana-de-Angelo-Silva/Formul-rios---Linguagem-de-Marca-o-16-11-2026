@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet"  href="style2.css" >
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+<link rel="icon" href="mídia/iconGatinhoEstrelado.png">
+
+        <title>Formulário - Exercício 2</title>
+</head>
+<body>
+
+    <section>
+        <img src="mídia/iconGatinhoEstrelado.png" alt="logo da empresa">
+    </section>
+
+    <main>
+
+                <form class="posicionamento">
+                    <h1> Área de Cadastro</h1>
+
+
+                    <div class="campoBloco">
+                        <label for="name"> Digite seu nome de usuário:</label>
+                        <input type="text" id="name" name="name" placeholder="ex: mariaJoana123#">
+                    </div>
+
+
+                    <div class="campoBloco">
+                        <label for="senha"> Digite sua senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="ex: ********">
+                    </div>
+
+
+                    <div class="campoBloco">
+
+                        <div class="campoLinha">
+                            <p> Aceite os termos de contrato</p>
+                        </div>
+                        
+                        <div class="campoLinha">
+                            <input type="checkbox" id="termos" name="termos">
+                            <label for="termos"> Li e concordo com os termos de contrato </label>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="campoBloco">
+                        <p> Qual seu sexo?</p>
+
+                        <div class="campoLinha">
+                            <input type="radio" id="sexo-feme" name="feminino" value="Feminino">
+                            <label for="sexo-feme">Feminino</label>
+                        </div>
+
+                        <div clas="campoLinha">
+                            <input type="radio" id="sexo-male" name="masculino" value="Masculino">
+                            <label for="sexo-male">Masculino</label>
+                        </div>
+                    </div>
+
+
+                    <div class="campoBloco">
+                        <label for="email"> Digite seu email: </label>
+                        <input type="email" id="email" name="email" placeholder=".......@gmail.com">
+                    </div>
+
+
+                    <div class="campoBloco">
+                        <label for="nascimento">Informe sua data de nascimento: </label>
+                        <input type="date" id="nascimento" name="data-nascimento">
+                    </div>
+
+                    <div class="campoBloco">
+                        <label for="RG"> Digite seu RG: </label>
+                        <input type="text" id="RG" name="rgUser" placeholder="12.345.678-9">
+                    </div>
+
+                    <div class="campoBloco">
+                        <label for="pesquisaSatisfacao"> Qual seu grau de satisfação com a empresa?</label>
+                        <input type="range" id="pesquisaSatisfacao" name="pesquisaSatisfacao" min="0" max="10" value="1">
+                    </div>
+
+                    <div class="campoBloco">
+                        <label for="preferencia">Qual é a sua raça de gatos favorita?</label>
+                        <select id="prerencia"  name="preferencias">
+                            <option value="" disabled selected>Selecione uma especialidade...</option>
+                            <option value="opção1">Persa</option>
+                            <option value="opção2">Siamês</option>
+                            <option value="opção3">Maine Coon</option>
+                            <option value="opção4">Ragdoll</option>
+                            <option value="opção5">British Shorthair</option>
+                            <option value="opção6">Sphynx</option>
+                            <option value="opção7">Bengal</option>
+                            <option value="opção8">Angorá</option>
+                            <option value="opção9">SRD</option>
+                        </select>
+                    </div>
+
+                    <div class="campoBloco">
+                        <label for="envio">Clique para cadastrar </label>
+                        <input type="submit" id="envio" name="envio">
+                    </div>
+                </form>
+
+    </main>
+
+</body>
+</html>
