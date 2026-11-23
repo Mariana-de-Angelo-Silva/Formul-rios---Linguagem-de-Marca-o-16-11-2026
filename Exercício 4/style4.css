@@ -4,11 +4,12 @@
 
 
 /*================== CSS DO BODY ==================*/
-/*pedir ajuda para corrigir a duplicação no canto da tela*/
+/*pedir ajuda para corrigir a duplicação no canto da tela -- auxílio: Iza*/
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
     background-image: url(mídia/fundoClinica.jpg);
     gap: 20px;
 
@@ -90,6 +91,16 @@ main{
     gap: 6px;
 }
 
+
+.rangeLinha {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rangeLinha input {
+    flex: 1;
+}
 .campoLinha{
     display: flex;
     flex-direction: column;
@@ -101,7 +112,7 @@ main{
     gap: 6px;
 }
 
-/* ==== PEDIR EXPLICAÇÃO ~ APONTADO PELA IA : */
+/* ==== PEDIR EXPLICAÇÃO ~ APONTADO PELA IA :  --- Explicação da estrutura em aula*/
 .campoBloco input[type="text"],
 .campoBloco input[type="email"],
 .campoBloco input[type="tel"],
@@ -143,8 +154,3 @@ main{
   }
 /*==================================================*/
 
-/*Dúvidas para a próxima aula: 
-1. Como tirar a duplicação da img de fundo sendo que a img parece normal?
-2. Como alinhar a legenda do renger?
-3. Como alinhar o bloco ao redor do arquivo?
-4.Mais dúvidas - esquecidas

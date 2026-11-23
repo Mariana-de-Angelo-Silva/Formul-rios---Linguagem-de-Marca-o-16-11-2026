@@ -118,7 +118,7 @@ main{
 
 
 
-/* ==== PEDIR EXPLICAÇÃO ~ APONTADO PELA IA : */
+/* ==== PEDIR EXPLICAÇÃO ~ APONTADO PELA IA : -- explicado para a aplicação de outro exercício*/
 .campoBloco input[type="text"],
 .campoBloco input[type="password"] {
     width: 400px;
@@ -133,7 +133,7 @@ main{
 }
 
 
-#envio{
+#envio{ /*puxei o id do input*/
   width: 250px;
   height: 40px;
   font-size: 20px;
@@ -149,6 +149,12 @@ main{
     font-size: 25px;
     color: rgb(255, 255, 255);
   }
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(150, 23, 23);
+}
 /*==================================================*/
 
 h4{

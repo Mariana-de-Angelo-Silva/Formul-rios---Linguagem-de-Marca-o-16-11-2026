@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style4.css">
+    <link rel="icon" href="mídia/iconHospital.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -86,15 +87,18 @@
             <h2> Resultados de Exames </h2>
 
             <div class="campoBloco">
-                <label for="arquivo">Enviar arquivo do exame: </label>
-                <input type="file" id="arquivo" name="arquivo" placeholder="Nenhum arquivo escolhido">
+                <label for="exameAnexo"> Enviar arquivo do exame: </label>
+                <input type="file" id="exameAnexo" name="exameAnexo">
             </div>
-            
+
             <div class="campoBloco">
                 <label for="temperatura">Qual a sua temperatura corporal?</label>
-                <span>28 °C</span>
-                <input type="range" id="temperatura" name="temperatura">
-                <span>43 °C</span>
+
+                <div class="rangeLinha">
+                    <span>28 °C</span>
+                    <input type="range" id="temperatura" name="temperatura" min="28" max="43">
+                    <span>43 °C</span>
+                </div>
             </div>
 
             <div class="campoBloco">
